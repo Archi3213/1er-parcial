@@ -6,6 +6,13 @@
     <title>Pronostico del clima</title>
 </head>
 <body>
-    
-</body>
-</html>
+<h1>Mi Sitio ahah Web</h1>
+<!-- Enlace Interno -->
+<p><a href="index_imagenes.html">Enlace a Página Interna</a></p>
+<!-- Enlace Externo -->
+<p><a href="https://github.com/Archi3213/1er-parcial">Enlace a Página Externa</a></p>
+<!-- Enlace a un archivo PDF (externo)-->
+<p><a href="c:\Users\eduar\Downloads\Mushoku Tensei v01 - Español.pdf">Enlace a un PDF</a></p>
+<!-- Enlace a una imagen (interna) -->
+<p><a href="c:\Users\eduar\OneDrive\Imágenes\Fondos\__ganyu_and_shenhe_genshin_impact_drawn_by_azuki_nako__d881393e73a130a93f48d6d78ef65095.png"> Enlace a una Imagen Interna</a></p>
+</body> </html>
