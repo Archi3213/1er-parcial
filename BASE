@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Ejemplo de Enlaces Internos y Externos</title>
 </head>
 <body>
-<h1>Mi Sitio ahah Web</h1>
+<h1>Mi Sitio probando Web</h1>
 <!-- Enlace Interno -->
 <p><a href="index_imagenes.html">Enlace a Página Interna</a></p>
 <!-- Enlace Externo -->
