@@ -27,6 +27,16 @@
         <p>Viento: 4km/h</p>
         <p>Probabilidad de lluvia: 80%</p>
      </div>
+ <h1>Pronostico Del Clima</h1>
+     <div> 
+        <h2>Mañana</h2>
+        <p>Fecha: 02 de Julio, 2023</p>
+        <p>Ciudad: Merida</p>
+        <p>Temperatura maxima: 36°C</p>
+        <p>Temperatura minima: 26°C</p>
+        <p>Viento: 3km/h</p>
+        <p>Probabilidad de lluvia: 50%</p>
+     </div>
 
 </body> 
 </html>
