@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronostico del clima</title>
+    <title>Pronostico del Clima</title>
 </head>
 <body>
-    <p>tengo sueñooooo</p>
+    <h1>Pronostico Del Clima</h1>
+     <div> 
+        <h2>Hoy</h2>
+        <p>Fecha: 30 de Agosto, 2023</p>
+        <p>Ciudad: Merida</p>
+        <p></p>
+     </div>
+
+
 </body> 
 </html>
