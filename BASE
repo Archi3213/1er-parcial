@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pronostico del Clima</title>
-</head>
+
 <body>
     <h1>Pronostico Del Clima</h1>
      <div> 
         <h2>Hoy</h2>
-        <p>Fecha: 30 de Agosto, 2023</p>
+        <p>Fecha: 30 de Junio, 2023</p>
         <p>Ciudad: Merida</p>
-        <p></p>
+        <p>Temperatura maxima: 35°C</p>
+        <p>Temperatura minima: 25°C</p>
+        <p>Viento: 5km/h</p>
+        <p>Probabilidad de lluvia: 82%</p>
      </div>
 
+     <h1>Pronostico Del Clima</h1>
+     <div> 
+        <h2>Mañana</h2>
+        <p>Fecha: 01 de Julio, 2023</p>
+        <p>Ciudad: Merida</p>
+        <p>Temperatura maxima: 34°C</p>
+        <p>Temperatura minima: 24°C</p>
+        <p>Viento: 4km/h</p>
+        <p>Probabilidad de lluvia: 80%</p>
+     </div>
 
 </body> 
 </html>
