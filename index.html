@@ -4,78 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pronostico del Clima</title>
-    <link rel="icon" href="ImagenesClima\nube.png" type="imgage/x-icon">
+    <link rel="icon" href="img/nube.png" type="imgage/x-icon">
+
+    <!--  Prefetch  -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Preload -->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
 
     <div>
         <input type="search" placeholder="Buscar"> <!--Barra de Busqueda-->
     </div>
 
 <body>
-    
-      <div>
-        <video width="200" height="120" controls>
-            <source src="ImagenesClima\Video.mp4" type="video/mp4" />
-    </div> 
-<h1>Pronostico Del Clima</h1>
-<div>
-    <h2>Hoy</h2>
-    <img src="ImagenesClima\llovera.jpg" alt="Condiciones climáticas">
-    <p>Fecha: 30 de Junio, 2023</p>
-    <p>Ciudad: Merida</p>
-    <p>Temperatura maxima: 35°C</p>
-    <p>Temperatura minima: 25°C</p>
-    <p>Viento: 5km/h</p>
-    <p>Probabilidad de lluvia: 82%</p>
-</div>
+    <header class="header">
 
-<h1>Pronostico Del Clima</h1>
-<div>
-    <h2>Mañana</h2>
-    <img src="ImagenesClima\soleado.jpg" alt="Condiciones climáticas">
-    <p>Fecha: 01 de Julio, 2023</p>
-    <p>Ciudad: Merida</p>
-    <p>Temperatura maxima: 34°C</p>
-    <p>Temperatura minima: 30°C</p>
-    <p>Viento: 4km/h</p>
-    <p>Probabilidad de lluvia: 0%</p>
-</div>
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Weather<span class="logo__bold">Solutions</span></h1>
+                </a>
 
-<h1>Pronostico Del Clima</h1>
-<div>
-    <h2>2 de julio</h2>
-    <img src="ImagenesClima\mediosoleado.jpg" alt="Condiciones climáticas">
-    <p>Fecha: 02 de Julio, 2023</p>
-    <p>Ciudad: Merida</p>
-    <p>Temperatura maxima: 36°C</p>
-    <p>Temperatura minima: 26°C</p>
-    <p>Viento: 3km/h</p>
-    <p>Probabilidad de lluvia: 50%</p>
-</div>
-<h1>Pronostico Del Clima</h1>
-<div>
-    <h2>3 de julio</h2>
-    <img src="ImagenesClima\lluvia.jpg" alt="Condiciones climáticas">
-    <p>Fecha: 3 de Julio, 2023</p>
-    <p>Ciudad: Merida</p>
-    <p>Temperatura maxima: 32°C</p>
-    <p>Temperatura minima: 22°C</p>
-    <p>Viento: 6km/h</p>
-    <p>Probabilidad de lluvia: 80%</p>
-</div>
-<h1>Pronostico Del Clima</h1>
-<div>
-    <h2>4 de julio</h2>
-    <img src="ImagenesClima\mediosoleado.jpg" alt="Condiciones climáticas">
-    <p>Fecha: 4 de Julio, 2023</p>
-    <p>Ciudad: Merida</p>
-    <p>Temperatura maxima: 33°C</p>
-    <p>Temperatura minima: 21°C</p>
-    <p>Viento: 3km/h</p>
-    <p>Probabilidad de lluvia: 70%</p>
-</div>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
 
+        <div class="header__texto">
+            <h2 class="no-margin">Pronóstico del clima</h2>
+            <p class="no-margin">Pronósticos de 5 días de la semana</p>
+        </div>
+    </header>
 
+    <div class="contenido-principal">
+        <!--<div>
+            <video width="200" height="120" controls>
+                <source src="img/Video.mp4" type="video/mp4" />
+            </video>
+        </div>-->
+        <div>
+            <h2>Hoy</h2>
+            <img src="img/llovera.jpg" alt="Condiciones climáticas">
+            <p>Fecha: 30 de Junio, 2023</p>
+            <p>Ciudad: Merida</p>
+            <p>Temperatura maxima: 35°C</p>
+            <p>Temperatura minima: 25°C</p>
+            <p>Viento: 5km/h</p>
+            <p>Probabilidad de lluvia: 82%</p>
+        </div>
 
+        <div>
+            <h2>Mañana</h2>
+            <img src="img/soleado.jpg" alt="Condiciones climáticas">
+            <p>Fecha: 01 de Julio, 2023</p>
+            <p>Ciudad: Merida</p>
+            <p>Temperatura maxima: 34°C</p>
+            <p>Temperatura minima: 30°C</p>
+            <p>Viento: 4km/h</p>
+            <p>Probabilidad de lluvia: 0%</p>
+        </div>
+
+        <div>
+            <h2>2 de julio</h2>
+            <img src="img/mediosoleado.jpg" alt="Condiciones climáticas">
+            <p>Fecha: 02 de Julio, 2023</p>
+            <p>Ciudad: Merida</p>
+            <p>Temperatura maxima: 36°C</p>
+            <p>Temperatura minima: 26°C</p>
+            <p>Viento: 3km/h</p>
+            <p>Probabilidad de lluvia: 50%</p>
+        </div>
+
+        <div>
+            <h2>3 de julio</h2>
+            <img src="img/lluvia.jpg" alt="Condiciones climáticas">
+            <p>Fecha: 3 de Julio, 2023</p>
+            <p>Ciudad: Merida</p>
+            <p>Temperatura maxima: 32°C</p>
+            <p>Temperatura minima: 22°C</p>
+            <p>Viento: 6km/h</p>
+            <p>Probabilidad de lluvia: 80%</p>
+        </div>
+
+        <div>
+            <h2>4 de julio</h2>
+            <img src="img/mediosoleado.jpg" alt="Condiciones climáticas">
+            <p>Fecha: 4 de Julio, 2023</p>
+            <p>Ciudad: Merida</p>
+            <p>Temperatura maxima: 33°C</p>
+            <p>Temperatura minima: 21°C</p>
+            <p>Viento: 3km/h</p>
+            <p>Probabilidad de lluvia: 70%</p>
+        </div>
+    </div>
 
 
 </body>
