@@ -81,7 +81,8 @@ img {
 
 @media (min-width: 768px) {
     .header__texto {
-        margin-top: 15rem;
+        margin-top: 8rem;
+        margin-bottom: 7rem;
     }
 }
 
@@ -139,6 +140,7 @@ img {
 @media (min-width: 768px) {
     .contenido-principal {
         display: flex;
+        justify-content: center;
         /*
         grid-template-columns: 1fr 1fr;
         */
