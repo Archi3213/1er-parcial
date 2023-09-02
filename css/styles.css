@@ -147,3 +147,12 @@ img {
         column-gap: 4rem;
     }
 }
+
+.social{
+    display: grid;
+    grid-template-columns: auto;
+}
+.redes{
+    display: flex;
+    gap: 4rem;
+}
