@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
 </head>
-<body>
+<body style="background-color: black;">
+
+    <h2 style="text-align:center; color: white;">¡Gracias por venir!</h2>
+    <h2 style="color: black;">Hola profe :D</h2>
+<p style="color: black;">The rot consumes ¯\_(ツ)_/¯</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contactanos</h2>
+    <p>Llena el formulario para que nos pongamos en contacto.</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://img.freepik.com/foto-gratis/hombre-pulgar-arriba_1149-1712.jpg?w=2000" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Nombres</label>
+        <input type="text" id="fname" name="firstname" placeholder="Nombres">
+        <label for="lname">Apellidos</label>
+        <input type="text" id="lname" name="lastname" placeholder="Apellidos">
+        <label for="country">País</label>
+        <select id="country" name="País">
+          <option value="australia">México</option>
+          <option value="canada">Argentina</option>
+          <option value="usa">Madagascar</option>
+        </select>
+        <label for="subject">Escribe tu comentario.</label>
+        <textarea id="subject" name="subject" placeholder="¡Adelante! Danos tu opinión..." style="height:170px"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
