@@ -29,6 +29,13 @@ body {
     margin: 0 auto; /* Centra el contenido horizontalmente */
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 a {
     text-decoration: none;
 }
