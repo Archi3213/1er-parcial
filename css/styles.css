@@ -64,44 +64,6 @@ h4 {
 img {
     max-width: 100%;
 }
-/*La información/apartado del frente frío*/
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-.item {
-    position: center;
-    overflow: hidden;
-    width: 1358px;
-    height: 850px;
-    margin: 20px;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-  
-.item img {
-    object-fit: cover;
-    transition: transform 0.3s ease-out;
-}
-  
-.item h2 {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-size: 20px;
-    font-weight: bold;
-}
-  
-.item p {
-    margin: 0;
-    font-size: 16px;
-}
-
-.item img:hover {
-    transform: scale(1.1);
-}
 
 /* Utilidades */
 .no-margin {
@@ -389,8 +351,7 @@ html {
     display: block;
 }
 .campo textarea{
-    height: 150px;
-    width: 532px;
+    height: 2rem;
 }
 .input-text{/*la forma en que esta escrito este selector es para trabajar 
     con los input de tipo texto solamente, para agregar otro tipo de input solo se agrega
