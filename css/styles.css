@@ -308,7 +308,7 @@ html {
     padding: 0 16px;
 }
 
-.container-nosotros::after, .row::after {
+.container-nosotros::after, .row::after { /* Se rompió asi que le cambié el nombre xd*/
     content: "";
     clear: both;
     display: table;
