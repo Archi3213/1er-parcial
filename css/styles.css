@@ -236,11 +236,11 @@ img {
         color: white;
     }
 
-    .container {
+    .container-nosotros {
         padding: 0 16px;
     }
 
-    .container::after, .row::after {
+    .container-nosotros::after, .row::after {
         content: "";
         clear: both;
         display: table;
@@ -304,11 +304,11 @@ html {
     color: white;
 }
 
-.container {
+.container-nosotros {
     padding: 0 16px;
 }
 
-.container::after, .row::after {
+.container-nosotros::after, .row::after { /* Se rompió asi que le cambié el nombre xd*/
     content: "";
     clear: both;
     display: table;
