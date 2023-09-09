@@ -370,7 +370,7 @@ html {
     .contenedor-campos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto auto 20rem ;
+        grid-template-rows: auto auto 30rem ;
         column-gap: 1rem;
 
     }
@@ -410,6 +410,6 @@ html {
 .footer{
     background-color: var(--negro);
     
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     margin-top: 4rem;/*separacion entre el footer y el conetenido*/
  }
