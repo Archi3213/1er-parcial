@@ -21,6 +21,7 @@ body {
     font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 2; /* Interlineado */
+    
 }
 
 /* Globales */
@@ -120,13 +121,16 @@ img {
 
 /* Header */
 .header{
-    background-color: black;
-    height: 27rem;
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .header__texto {
     text-align: center;
-    color: var(--blanco);
+    color: var(--negro);
     margin-top: 5rem;
 }
 
@@ -199,14 +203,11 @@ img {
     }
 }
 
-.social{
-    display: grid;
-    grid-template-columns: auto;
-    color: var(--blanco);
-}
+
 .redes{
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
+    padding: 3rem;
 }
 .redes li{
     text-decoration: none;
@@ -408,7 +409,7 @@ html {
 /*footer*/
 .footer{
     background-color: var(--negro);
-    text-align: center;
+    
     padding-bottom: 3rem;
-    margin-top: 3rem;/*separacion entre el footer y el conetenido*/
+    margin-top: 4rem;/*separacion entre el footer y el conetenido*/
  }
