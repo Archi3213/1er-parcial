@@ -239,7 +239,13 @@ img {
 
 /*Página Nosotros*/
   
-        
+    .contenedor-nosotros {
+        padding-top: 370px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+    }      
     
     .column {
         float: left;
@@ -251,6 +257,7 @@ img {
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin: 8px;
+        max-height: 420.2px;
     }
 
     .about-section {
@@ -319,6 +326,15 @@ html {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+}
+
+#Cisco {
+    width: 420.2px;
+    height: 420.2px;
+}
+
+#Nilson {
+    max-height: 420.2px;
 }
 
 .about-section {
@@ -434,5 +450,5 @@ html {
     background-color: var(--negro);
     
     padding-bottom: 4rem;
-    margin-top: 4rem;/*separacion entre el footer y el conetenido*/
+    margin-top: 4rem;/*separacion entre el footer y el contenido*/
  }
