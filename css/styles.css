@@ -529,7 +529,30 @@ html {
     margin-top: 4rem;/*separacion entre el footer y el conetenido*/
  }
 
- .article1{
-    
- }
+/*Estilo de articulos 1,2,3,4,*/
 
+.entrada-blog {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.contenido {
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.contenido p {
+    margin: 20px;
+}
+
+.contenido img {
+    margin: 20px;
+}
+
+.contenido strong {
+    font-weight: bold;
+}
+/*Estilo de articulos 1,2,3,4,*/
