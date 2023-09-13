@@ -542,7 +542,7 @@ html {
 
 /*Estilo de articulos 1,2,3,4,*/
 
-.entrada-articulo {
+.entrada-blog {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
