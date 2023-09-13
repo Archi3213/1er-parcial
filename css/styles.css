@@ -525,5 +525,5 @@ html {
     background-color: var(--negro);
     
     padding-bottom: 4rem;
-    margin-top: 4rem;/*separacion entre el footer y el contenido*/
+    margin-top: 10rem;/*separacion entre el footer y el contenido*/
  }
