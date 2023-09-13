@@ -538,3 +538,15 @@ html {
     padding-bottom: 4rem;
     margin-top: 4rem;/*separacion entre el footer y el contenido*/
  }
+ 
+
+ #video-fondo {
+     position: fixed;
+     top: 0;
+     left: 0;
+     min-width: 100%;
+     min-height: 100%;
+     z-index: -1; /* Coloca el video detrás de todo el contenido */
+ }
+
+
