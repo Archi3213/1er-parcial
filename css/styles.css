@@ -313,71 +313,107 @@ img {
 }
 
 /*Página Nosotros*/
+.descripcion{
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(53, 53, 53);
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card__perfil{
+    width: 310px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+    border: solid rgba(3, 133, 255, 0) 2px;
+    border-radius: 10px;
+}
+.card__perfil:hover{
+    border: solid rgb(3, 133, 255) 2px;
+}
+.card__perfil:hover img{
+    transform: rotate(0);
+}
+.nilson{
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+    transform: rotate(-30deg);
+    transition: all .3s;
+}
+.francisco{
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+    transform: rotate(-30deg);
+    transition: all .3s;
+}
+.samuel{
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+    transform: rotate(-30deg);
+    transition: all .3s;
+}
+.card__nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background: rgb(223, 221, 221);
+    margin: 20px 5px;
+}
+.card__button{
+    text-align: center;
+}
+.enlace{
+    background: rgb(0, 110, 255);
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+}
   
-    .contenedor-nosotros {
-        padding-top: 370px;
-        margin-top: 100px;
-        margin-bottom: 100px;
+.contenedor-nosotros {
+        margin-top: 20px;
+        margin-bottom: 20px;
         margin-right: 150px;
-        margin-left: 80px;
-    }      
+        margin-left: 150px;
+        text-align: center;
+}      
     
-    .column {
+.column {
         float: left;
         width: 33.3%;
         margin-bottom: 16px;
         padding: 0 8px;
-    }
-
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin: 8px;
-        max-height: 420.2px;
-    }
-
-    .about-section {
+}
+.about-section {
         padding: 50px;
         text-align: center;
         background-color: #000;
         color: white;
-    }
+}
 
-    .container-nosotros {
-        padding: 0 16px;
-    }
-
-    .container-nosotros::after, .row::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-    .title {
+.title {
         color: grey;
-    }
+}
 
-    .button {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-    }
-
-    .button:hover {
-        background-color: #555;
-    }
-
-    @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
         .column {
             width: 100%;
             display: block;
         }
-    }
+}
 
 /*Página Nosotros*/
 body {
@@ -398,37 +434,12 @@ html {
     padding: 0 8px;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-}
-
-#Cisco {
-    width: 420.2px;
-    height: 420.2px;
-}
-
-#Nilson {
-    max-height: 420.2px;
-}
-
 .about-section {
     padding: 10rem;
     text-align: center;
     background-color: #000;
     color: white;
 }
-
-.container-nosotros {
-    padding: 0 16px;
-}
-
-.container-nosotros::after, .row::after { /* Se rompió asi que le cambié el nombre xd*/
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .title {
     color: grey;
 }
@@ -525,13 +536,13 @@ html {
     background-color: var(--negro);
     
     padding-bottom: 4rem;
-
-    margin-top: 4rem;/*separacion entre el footer y el conetenido*/
+    margin-top: 4rem;/*separacion entre el footer y el contenido*/
  }
+
 
 /*Estilo de articulos 1,2,3,4,*/
 
-.entrada-blog {
+.entrada-articulo {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -555,4 +566,4 @@ html {
 .contenido strong {
     font-weight: bold;
 }
-/*Estilo de articulos 1,2,3,4,*/
+
