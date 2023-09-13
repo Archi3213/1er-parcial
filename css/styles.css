@@ -361,6 +361,13 @@ img {
     transform: rotate(-30deg);
     transition: all .3s;
 }
+.raul{
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+    transform: rotate(-30deg);
+    transition: all .3s;
+}
 .card__nombre{
     display: flex;
     flex-direction: column;
