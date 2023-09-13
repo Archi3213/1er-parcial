@@ -20,63 +20,75 @@
                 <a href="index.html" class="logo">
                     <h1 class="logo__nombre no-margin centrar-texto">Weather<span class="logo__bold">Solutions</span></h1>
                 </a>
-                
                 <nav class="navegacion">
                     <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
             </div>
         </div>
-    </div>
+    </header>
 <nav class="contenedor-nosotros"> <!-- Se crea este contenedor para poder mover las cosas. -->
   <div>
       <h1>Sobre Nosotros</h1>
-       <p>Somos estudiantes de IGTI diseñando páginas para sobrevivir la carrera.</p>
+       <p>Somos estudiantes de IGTI del 7timo semestre diseñando páginas para sobrevivir la carrera.</p>
   </div>
 </nav>
     <h2 style="text-align:center">Nuestro equipo:</h2>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <img id="Nilson" src="img/Nilson.jpg" alt="Nilson" style="width:100%">
-            <div class="container-nosotros">
-              <h2>Nilson</h2>
-              <p class="title">Programador</p>
-              <p>Sobreviviente de dengue.</p>
-              <p>nilson@example.com</p>
-              <p><button class="button">Contacto</button></p>
-            </div>
+    <section class="card">
+      <div class="card__perfil">
+          <div class="card__nombre">
+              <img class="nilson" src="img/Nilson.jpg" alt="Nilson">
+              <h2>Nilson Manuel</h2>
+              <p>Diseñador web</p>
           </div>
-        </div>
-      
-        <div class="column">
-          <div class="card">
-            <img id="Cisco" src="img/Francisco.webp" alt="Francisco">
-            <div class="container-nosotros">
-              <h2>Francisco</h2>
-              <p class="title">CEO & Organizador</p>
-              <p>Creador del repositorio de Github.</p>
-              <p>francisco@example.com</p>
-              <p><button class="button">Contacto</button></p>
-            </div>
+          <hr>
+          <div class="card__descripcion">
+              <p>Nilson es un hombre de 23 años, apasionado por la música y la tecnología.
+                Es un creativo emprendedor que disfruta explorando nuevas ideas y siempre 
+                busca la innovación en su trabajo.</p>
           </div>
-        </div>
-        
-        <div class="column">
-          <div class="card">
-            <img src="img/Samuel.jpg" alt="Samuel" style="width:100%">
-            <div class="container-nosotros">
-              <h2>Samuel</h2>
-              <p class="title">Diseñador y programador</p>
-              <p>El que diseñó ésta página y el que lleva al equipo en sus hombros.</p>
-              <p>samuel@example.com</p>
-              <p><button class="button">Contacto</button></p>
-            </div>
+          <hr>
+          <div class="card__button">
+              <a class="enlace" href="#">Saber más</a>
           </div>
-        </div>
       </div>
+      <div class="card__perfil">
+          <div class="card__nombre">
+              <img class="francisco" src="img/Francisco.webp" alt="Francisco">
+              <h2>Francisco Jesús</h2>
+              <p>Desarrollador web</p>
+          </div>
+          <hr>
+          <div class="card__descripcion">
+              <p>Francisco, a sus 21 años, es un amante de la naturaleza y la calma. 
+                Su espíritu tranquilo y su sabiduría se reflejan en su
+                 afición por la jardinería y la meditación.</p>
+          </div>
+          <hr>
+          <div class="card__button">
+              <a class="enlace" href="#">Saber más</a>
+          </div>
+      </div>
+      <div class="card__perfil">
+          <div class="card__nombre">
+              <img class="samuel" src="img/Samuel.jpg" alt="Samuel">
+              <h2>Samuel P.</h2>
+              <p>Desarrollador web</p>
+          </div>
+          <hr>
+          <div class="card__descripcion">
+              <p>Samuel, un joven de 22 años, es un apasionado fotógrafo que captura la belleza en los momentos cotidianos.
+                 Su creatividad y ojo para el detalle lo hacen único en su arte.</p>
+          </div>
+          <hr>
+          <div class="card__button">
+              <a class="enlace" href="#">Saber más</a>
+          </div>
+      </div>
+  </section>
      
-    <footer class="footer">
+      <div id="contenedor-barra-negra">    
+      <footer class="footer">
         <div class="contenedor">
             <div class="barra">
                 <a href="index.html" class="logo">
@@ -92,9 +104,10 @@
                             <li><a href="https://www.instagram.com/meteoredofficial/"><img src="img/instagram.png" width="45" height="45"> </a></li>
                         </ul>
                     </div>
-          
+                    </div>
                   </div>
-    </footer>
+                </div>
+        </footer>
 
 </body>
 </html>
