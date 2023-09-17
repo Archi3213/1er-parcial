@@ -598,7 +598,7 @@ button[type="submit"]:hover {
 }
 /*efecto hover*/
 .imagen-contenedor {
-     /* Ajusta el tamaño según tus necesidades */
+     
     overflow: hidden; /* Oculta partes de la imagen fuera del contenedor */
     transition: transform 0.3s; /* Transición suave para el efecto */
 }
