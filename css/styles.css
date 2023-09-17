@@ -180,7 +180,15 @@ img {
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
+/*agregando opacity transition al slide*/
+.opacity-transition {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
 
+.opacity-transition:hover {
+    opacity: 1;
+}
 /* Sección articulos*/
 
 .entrada-articulo a {
@@ -230,6 +238,7 @@ img {
     text-align: center;
     color: var(--negro);
     margin-top: 5rem;
+    pointer-events: none;
 }
 
 @media (min-width: 768px) {
@@ -487,6 +496,7 @@ html {
     padding: 2rem;
     border-radius: 1rem;
 }
+
 .formulario fieldset{
     border: none;
 }
@@ -524,6 +534,7 @@ html {
 .campo textarea{
     height: 150px;
     width: 532px;
+    font: var(--fuenteParrafos);
 }
 .input-text{/*la forma en que esta escrito este selector es para trabajar 
     con los input de tipo texto solamente, para agregar otro tipo de input solo se agrega
@@ -534,9 +545,21 @@ html {
     padding: 1.5rem;
     border-radius: .5rem;
 }
-/*.enviar .boton{
-    width: 100%;esta clase hace que el boton enviar tome el ancho del 100%*/
-/*centrado del ultimo texto*/
+/*Personalizando en boton de enviar*/
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2684c7;
+}
+
 
 /*footer*/
 .footer{
@@ -573,4 +596,17 @@ html {
 .contenido strong {
     font-weight: bold;
 }
+/*efecto hover*/
+.imagen-contenedor {
+     /* Ajusta el tamaño según tus necesidades */
+    overflow: hidden; /* Oculta partes de la imagen fuera del contenedor */
+    transition: transform 0.3s; /* Transición suave para el efecto */
+}
+
+/* Escala la imagen al pasar el cursor sobre ella */
+.imagen-contenedor:hover {
+    transform: scale(1.1); /* Cambia el valor para ajustar el aumento de escala */
+}
+
+
 
