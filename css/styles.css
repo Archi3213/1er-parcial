@@ -238,6 +238,7 @@ img {
     text-align: center;
     color: var(--negro);
     margin-top: 5rem;
+    pointer-events: none;
 }
 
 @media (min-width: 768px) {
