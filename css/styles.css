@@ -596,7 +596,7 @@ button[type="submit"]:hover {
 .contenido strong {
     font-weight: bold;
 }
-
+/*efecto hover*/
 .imagen-contenedor {
      /* Ajusta el tamaño según tus necesidades */
     overflow: hidden; /* Oculta partes de la imagen fuera del contenedor */
