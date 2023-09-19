@@ -596,6 +596,25 @@ button[type="submit"]:hover {
 .contenido strong {
     font-weight: bold;
 }
+/*Entradas de articulos 1 2 3 y 4*/
+.entrada-articulos a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenedor{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
 /*efecto hover*/
 .imagen-contenedor {
      
