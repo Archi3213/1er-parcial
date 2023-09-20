@@ -572,11 +572,7 @@ button[type="submit"]:hover {
 
 /*Estilo de articulos 1,2,3,4,*/
 
-.entrada-blog {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
+
 
 .contenido {
     margin: 20px;
