@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronostico del Clima</title>
+    <link rel="icon" href="img/nube.png" type="imgage/x-icon">
+
+    <!--  Prefetch  -->
+    <link rel="prefetch" href="nosotros.html" as="document">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
           rel="stylesheet">
+
+    <!-- Preload -->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
     <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css">
+</head>
 
-    <title>Contacto</title>
-    <link rel="icon" href="img/nube.png" type="imgage/x-icon">
 
 
 <body>
@@ -30,56 +41,22 @@
             </div>
         </div>
 
-       
-        
+        <div class="header__texto">
+            <h2 class="no-margin">Pronóstico del clima</h2>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <article class="entrada-articulos">
+            <h1>¡¡Calentamiento Global Pone en Peligro la Capa de Hielo en la Antártida Occidental a Largo Plazo!!</h1>
+            <img src="img/imagenarticulo4.jpg">
+
+            <p>El calentamiento global ha debilitado la capa de hielo en la Antártida Occidental, lo que podría provocar un aumento del nivel del mar durante los próximos cientos o miles de años.
+                A medida que el hielo se derrite más rápido de lo que se acumula, se advierte sobre graves consecuencias para las futuras generaciones y las comunidades costeras en todo el mundo.
+                Se destaca la urgencia de tomar medidas para mitigar el cambio climático y reducir las emisiones de gases de efecto invernadero.</p>
+        </article>
+
     </div>
-
-     <!--FORMULARIO-->
-     <div>
-        <section>
-          
-          <form class="formulario">
-              <fieldset>
-                  <legend>Contáctanos llenando todos los campos</legend>
-  
-                  <div class="contenedor-campos">
-  
-                  <div class="campo">
-                  <label>Nombre</label>
-                  <input class="input-text" type="text" placeholder="Tu nombre">
-                  </div>
-                  
-                  <div class="campo">
-                  <label>Telefono</label>
-                  <input class="input-text" type="tel" placeholder="Tu teléfono">
-                  </div>
-                 
-                  <div class="campo">
-                  <label>Correo</label>
-                  <input class="input-text" type="email" placeholder="Tu correo">
-                  </div>
-  
-                  <div class="campo">
-                  <label>Mensaje</label>
-                  <textarea class="input-text" placeholder="Tu mensaje"></textarea>
-                  </div>
-                 
-              </div><!--fin de contendor campos-->
-  
-                  <div><!--Boton de enviar formulario-->
-                    <button type="submit">Enviar</button>
-                  </div>
-                  
-  
-              </fieldset>
-          
-          </form>
-  
-      </section>
-     </div>  
-     
-
-   
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
@@ -90,7 +67,7 @@
 
                     <div>
                 
-                       
+                        <h4></h4>
                         <ul class="redes">
                             <li><a href="https://www.facebook.com/meteoredofficial"><img src="img/facebook.png" width="45" height="45"> </a></li>
                             <li><a href="https://twitter.com/meteoredmx"><img src="img/twitter.png" width="45" height="45"> </a></li>
@@ -103,6 +80,5 @@
           
         </div>
     </footer>
-
-</body>
-</html>
+    </body>
+    </html>
